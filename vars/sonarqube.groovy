@@ -1,5 +1,4 @@
 def sonarscan(String credentialsId, String installationName, String projectName, String projectKey) {
-{
     sh """$SCANNER_HOME/bin/sonar-scanner \
          -Dsonar.projectKey=${projectKey} \
          -Dsonar.projectName=${projectName} \

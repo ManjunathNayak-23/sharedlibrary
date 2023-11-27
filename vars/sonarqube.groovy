@@ -1,7 +1,5 @@
 def sonarscan(String projectName, String projectKey) {
 
-         echo "Project Name: ${projectName}"
-    echo "Project Key: ${projectKey}"
          sh """$SCANNER_HOME/bin/sonar-scanner \
          -Dsonar.projectKey=${projectKey} \
          -Dsonar.projectName=${projectName} \

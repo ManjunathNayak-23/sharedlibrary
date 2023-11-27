@@ -9,7 +9,7 @@ def test(){
  sh 'npm test'
   
 }
-def install(){
+def installDependency(){
   
 sh 'npm install'
   

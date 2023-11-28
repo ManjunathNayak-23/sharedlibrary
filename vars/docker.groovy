@@ -9,3 +9,4 @@ def buildAndPush(String IMAGE_NAME,String BUILD_ID,String DOCKERFILE_PATH,String
 
 
 }
+}

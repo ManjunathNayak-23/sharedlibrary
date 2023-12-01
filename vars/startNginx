@@ -1,4 +1,4 @@
-def start(String SSHCONFIGNAME){
+def startService(String SSHCONFIGNAME){
 
 shPublisher(publishers: [sshPublisherDesc(configName: SSHCONFIGNAME, transfers: [
                                     sshTransfer(

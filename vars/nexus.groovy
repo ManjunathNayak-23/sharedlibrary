@@ -7,4 +7,5 @@ def pushtoNexus( String NEXUS_USERNAME,String NEXUS_PASSWORD,String NEXUS_URL,St
          """
  sh curlCommand
  echo "Artifact deployed to Nexus with version ${currentVersion}"
+ return ${currentVersion}.${env.BUILD_ID}
 }
